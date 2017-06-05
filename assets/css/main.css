@@ -1,1 +1,96 @@
-main.css
+/*Colores
+botones, hover: #FFooBF;
+nav blanco, letras azules y fondo footer: #333447;
+titulos form: #352384;
+texto form: #728099;
+gradiente morado: linear-gradient(#76278f, #2B1E66);*/
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/****************************nav-bar****************************/
+.barra-menu{
+	background-color: rgba(0,0,0,0.0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.barra-menu.flex-container{
+	justify-content: flex-end;
+}
+.img-navbar{
+	margin-right: auto;
+	margin-left: 90px;
+	margin-top: 50px;
+}
+.logo-navbar{
+	width: 100px;
+}
+/*nav a*/
+.nav-link{
+	margin: 0;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+.nav-link a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	font-size: 25px;
+}
+/*botón log in*/
+#log-in{
+	display: inline-block;
+	color: white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-radius: 9px;
+	padding: 9px;
+}
+#sign-up{
+	display: inline-block;
+	color: #FF00BF;
+	border-top: 2px solid  #FF00BF;
+	border-bottom: 2px solid  #FF00BF;
+	border-left: 2px solid #FF00BF;
+	border-right: 2px solid  #FF00BF;
+	border-radius: 9px;
+	padding: 9px;
+}
+.hide{
+	display: none;
+}
+
+/****************header******************/
+.headr.flex.container{
+	justify-content: flex-end;
+align-items: center;
+flex-wrap: wrap;
+}
+.vid{
+	width: 100%;
+	height: 100%;
+}
+/*
+.headr .contenedor-telefono{
+	background-color: #fff;
+	position: absolute;
+	top: 250px;
+	right: 0px;
+	height: 50%;
+	width: 50%;
+}
+.contenedor-telefono{
+	padding: 15px;
+}
+.contenedor-telefono h1{
+	font-size: 50px;
+}*/
+
+

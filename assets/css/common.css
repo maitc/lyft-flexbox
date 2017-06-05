@@ -1,1 +1,4 @@
-common.css
+/*contenedor flex-box*/
+.flex-container{
+	display: flex;
+}
