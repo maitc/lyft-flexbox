@@ -11,31 +11,37 @@
 <body>
 	<!-- NAV-BAR -->
 	<nav id="navbar mynav nav" class="barra-menu flex-container">
-			<div class="img-navbar">
-				<img src="assets/img/logo-white.png" alt="logo-blanco" class="logo-navbar">
+			<video class="vid" video autobuffer autoplay loop>
+				<source src="assets/img/hero-video.mp4" type="video/mp4">
+			</video>
+			<div class="cajas-nav">
+				<div class="img-navbar">
+					<img src="assets/img/logo-white.png" alt="logo-blanco" class="logo-navbar">
+				</div>
+				<div class="nav-link">
+					<a href="#" id="nav-a">Drive</a>
+					<a href="#" id="nav-a">Explore</a>
+					<a href="#" id="nav-a">Help</a>
+					<a href="#" id="log-in">Log in</a>
+					<a href="#" id="sign-up" class="hide">Sign up</a>
+				</div>
 			</div>
-			<div class="nav-link">
-				<a href="#" id="nav-a">Drive</a>
-				<a href="#" id="nav-a">Explore</a>
-				<a href="#" id="nav-a">Help</a>
-				<a href="#" id="log-in">Log in</a>
-				<a href="#" id="sign-up" class="hide">Sign up</a>
+			<div class="caja-register">
+				<div class="contenedor-telefono">	
+					<h1>TURN MILES<br> INTO MONEY</h1>
+					<label class="registro-text">SIGN UP TO DRIVE LYFT</label>
+					<div>
+						<input type="text" id="registro-input" placeholder="Phone Number">
+						<a id="registro-button">Become a Driver</a>
+					</div>
+					<div>
+						<p class="p-uno">Already applied? <span class="color-p">Check the status of your application here.</span></p>
+						<p class="p-dos">Earn money for inviting friends to drive. <span class="color-p">Learn more</span></p>
+					</div>
+				</div>
 			</div>
 	</nav>
-	<!-- HEADER -->
-	<header class="headr flex-container">
-		<video class="vid" video autobuffer autoplay loop>
-				<source src="assets/img/hero-video.mp4" type="video/mp4">
-		</video>
-		<div class="contenedor-telefono">	
-			<h1>TURN MILES<br> INTO MONEY</h1>
-			<label class="registro-text">SIGN UP TO DRIVE LYFT</label>
-			<input type="text" id="registro-input" placeholder="Phone Number">
-			<a id="registro-button">Become a Driver</a>
-			<p class="p-uno">Already applied? <span class="color-p">Check the status of your application here.</span></p>
-			<p class="p-dos">Earn money for inviting friends to drive. <span class="color-p">Learn more</span></p>
-		</div>
-	</header>
+	<!-- div -->
 	<!-- THIRD SECTION = INFORMACION -->
 	<section class="third-section flex-container">
 		<div class="parrafos">
@@ -48,6 +54,15 @@
 		</div>
 		<div class="img-dos">
 			<img src="assets/img/phone.png" alt="celular" class="img-info">
+		</div>
+	</section>
+	<section class="fourth-section flex-container">
+		<div class="text-fourth">
+			<h2>lorem</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi deserunt officia, molestiae eum quo ipsam quae? Maxime quos deserunt ipsum dignissimos, soluta eius consequuntur adipisci reiciendis, harum libero et!</p>
+		</div>
+		<div class="video fourth">
+			<iframe width="900" height="500" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 		</div>
 	</section>
 	<!-- FOOTER -->
